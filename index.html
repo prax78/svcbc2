@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <!-- Example: Allowing blobs for images and media -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SVBC2 Live</title>
     <style>
@@ -25,16 +26,25 @@
         height: 100vh;
         border: 0;
       }
+
+      .btn-class{
+        width: 300px;
+        height: 50px;
+        background-color: maroon;
+        color: wheat;
+        font-size: larger;
+      
+      
+      }
     </style>
   </head>
   <body>
-    <iframe
-      id="player"
-      src="https://www.youtube.com/embed/NGZPKl79SLo?autoplay=1&rel=0&playsinline=1"
-      title="SVBC2 Live"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen>
-    </iframe>
+    <input type="button" onclick="play('svbc2')" value="SVBC" class="btn-class" />&nbsp;&nbsp;<input type="button" onclick="play('divya')" value="Divya" class="btn-class"/>
+
+
+    <script src="./src/main.js">
+      
+    </script>
+
   </body>
 </html>
