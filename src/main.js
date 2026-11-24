@@ -1,5 +1,14 @@
-
+        document.addEventListener("keypress",(e)=>{
+            console.log(e)
+            if(e.key=="1"){
+                play("svbc2");
+            }else if(e.key=="2"){
+                play("divya");
+            }
+        })
       function play(video){
+
+
        
         if(video==='svbc2'){
           console.log(`playing ${video}`)
