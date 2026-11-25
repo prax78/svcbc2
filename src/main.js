@@ -16,7 +16,7 @@
           
           iframe.setAttribute("title",video)
         //   console.log(iframe)
-          let link="https://www.youtube.com/embed/NGZPKl79SLo?si=XHfwa7oTzlwncuNS"
+          let link="https://www.youtube.com/embed/tSz7ISBQ92s?si=VuWiGe1IEPu72S1f"
           iframe.setAttribute("src",encodeURI(link));
           iframe.setAttribute("frameborder","0" )
         //   iframe.setAttribute("allowfullscreen","")
